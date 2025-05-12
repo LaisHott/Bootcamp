@@ -28,4 +28,3 @@ Neste projeto, realizei as seguintes etapas:
 * **Seaborn:** Biblioteca Python para visualização de dados estatísticos (opcional, mas recomendada para gráficos mais informativos).
 * **Outras bibliotecas relevantes:** (Adicione aqui qualquer outra biblioteca Python que você utilizou, como SciPy para testes estatísticos, se aplicável).
 
-## Estrutura do Repositório
