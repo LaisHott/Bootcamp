@@ -1,58 +1,31 @@
-# Bootcamp
-Projects from my Data Analytics Bootcamp 
+# YMusic
+## Análise Comparativa de Preferências Musicais entre Springfield e Shelbyville
 
-[![Build Status](https://travis-ci.org/walternascimentobarroso/walternascimentobarroso.github.io.svg?branch=master)](https://travis-ci.org/walternascimentobarroso/walternascimentobarroso.github.io)
+Este projeto foi desenvolvido como parte do meu bootcamp de Data Analytics e tem como objetivo comparar as preferências musicais dos habitantes de Springfield e Shelbyville com base em dados reais do serviço Y.Music. Através da análise exploratória dos dados, buscamos testar as seguintes hipóteses:
 
-## :bookmark_tabs: Menu
-* [Overview](#overview)
-* [Doc](#doc)
+## Hipóteses
 
-## :scroll: Overview
-Breve descrição do projeto.
+1.  A atividade dos usuários é diferente dependendo do dia da semana e da cidade.
+2.  Durante as manhãs de segunda-feira, os moradores de Springfield e Shelbyville escutam diferentes gêneros. Isso também é verdadeiro para noites de sexta-feira.
+3.  Os ouvintes de Springfield e Shelbyville têm diferentes preferências. Em Springfield, as pessoas preferem pop, enquanto Shelbyville tem mais fãs de rap.
 
-## :rice_scene: Screenshot
-![Logo](https://via.placeholder.com/750x500)
+## Descrição do Projeto
 
-## :dvd: Demo
-Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Neste projeto, realizei as seguintes etapas:
 
-| url                      | login          | password |
-| ------------------------ | -------------- | -------- |
-| http://exemplo.com/admin | admin@mail.com | 123      |
+* **Coleta de Dados:** Obtive dados de uso do serviço de streaming de música Y.Music.
+* **Limpeza e Pré-processamento:** Realizei a limpeza e o tratamento dos dados para garantir a qualidade da análise, lidando com valores ausentes, duplicados e inconsistências.
+* **Análise Exploratória de Dados (EDA):** Explorei os dados para identificar padrões, tendências e insights relevantes sobre o comportamento dos usuários nas duas cidades.
+* **Teste de Hipóteses:** Utilizei técnicas de análise de dados para testar as hipóteses levantadas, comparando a atividade e as preferências musicais entre Springfield e Shelbyville em diferentes dias da semana e horários.
+* **Visualização de Dados:** Apresentei os resultados da análise por meio de gráficos e tabelas para facilitar a compreensão das conclusões.
 
-## :blue_book: Documentation
-Documentation lives at readthedocs.org
+## Tecnologias Utilizadas
 
-## :heavy_exclamation_mark: Requirements
-* [Node](https://nodejs.org/en/download/)
-* [PHP](https://php.net/)
+* **Python:** Linguagem de programação principal utilizada para análise de dados.
+* **Pandas:** Biblioteca Python para manipulação e análise de dados tabulares.
+* **NumPy:** Biblioteca Python para computação numérica.
+* **Matplotlib:** Biblioteca Python para visualização de dados.
+* **Seaborn:** Biblioteca Python para visualização de dados estatísticos (opcional, mas recomendada para gráficos mais informativos).
+* **Outras bibliotecas relevantes:** (Adicione aqui qualquer outra biblioteca Python que você utilizou, como SciPy para testes estatísticos, se aplicável).
 
-## Installation and usage
-```
-git clone https://github.com/<user>/<project>
-```
-
-### Tests
-```
-$ npm run test
-```
-
-### Dependencies and libs
-- [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
-- [React PDF](https://react-pdf.org/)
-
-### Folder Structure
-```
-.
-├── src # Project source code
-├── doc # Doc for the project
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-### Contributing
-1. Fork it (https://github.com/yourname/yourproject/fork)
-2. Create your feature branch (git checkout -b feature/fooBar)
-3. Commit your changes (git commit -am ‘Add some fooBar’)
-4. Push to the branch (git push origin feature/fooBar)
-5. Create a new Pull Request
+## Estrutura do Repositório
