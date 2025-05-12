@@ -1,29 +1,87 @@
-# YMusic
-## Análise Comparativa de Preferências Musicais entre Springfield e Shelbyville
+# 🎧 Análise de Preferências Musicais entre Springfield e Shelbyville
 
-Este projeto foi desenvolvido como parte do meu bootcamp de Data Analytics e tem como objetivo comparar as preferências musicais dos habitantes de Springfield e Shelbyville com base em dados reais do serviço Y.Music. Através da análise exploratória dos dados, buscamos testar as seguintes hipóteses:
+## 📌 Descrição do Projeto
 
-## Hipóteses
+Este projeto tem como objetivo comparar os hábitos de escuta musical dos habitantes de Springfield e Shelbyville usando dados reais da plataforma Y.Music. A análise foi feita como parte do Bootcamp de Data Analytics e se baseia na validação de hipóteses sobre comportamentos de usuários em diferentes dias e horários.
 
-1.  A atividade dos usuários é diferente dependendo do dia da semana e da cidade.
-2.  Durante as manhãs de segunda-feira, os moradores de Springfield e Shelbyville escutam diferentes gêneros. Isso também é verdadeiro para noites de sexta-feira.
-3.  Os ouvintes de Springfield e Shelbyville têm diferentes preferências. Em Springfield, as pessoas preferem pop, enquanto Shelbyville tem mais fãs de rap.
+## 🎯 Objetivos
 
-## Descrição do Projeto
+- Verificar se a atividade dos usuários varia conforme o dia da semana e a cidade.
+- Analisar se há diferença nas preferências musicais entre manhãs de segunda-feira e noites de sexta-feira em cada cidade.
+- Avaliar se Springfield tem uma preferência maior por música pop e Shelbyville por rap.
 
-Neste projeto, realizei as seguintes etapas:
+## 🛠️ Tecnologias Utilizadas
 
-* **Coleta de Dados:** Obtive dados de uso do serviço de streaming de música Y.Music.
-* **Limpeza e Pré-processamento:** Realizei a limpeza e o tratamento dos dados para garantir a qualidade da análise, lidando com valores ausentes, duplicados e inconsistências.
-* **Análise Exploratória de Dados (EDA):** Explorei os dados para identificar padrões, tendências e insights relevantes sobre o comportamento dos usuários nas duas cidades.
-* **Teste de Hipóteses:** Utilizei técnicas de análise de dados para testar as hipóteses levantadas, comparando a atividade e as preferências musicais entre Springfield e Shelbyville em diferentes dias da semana e horários.
-* **Visualização de Dados:** Apresentei os resultados da análise por meio de gráficos e tabelas para facilitar a compreensão das conclusões.
+- Python (Pandas, Seaborn, Matplotlib)
+- Jupyter Notebook
+- Visualização de dados
+- Análise exploratória de dados (EDA)
 
-## Tecnologias Utilizadas
+## 🔍 Etapas da Análise
 
-* **Python:** Linguagem de programação principal utilizada para análise de dados.
-* **Pandas:** Biblioteca Python para manipulação e análise de dados tabulares.
-* **NumPy:** Biblioteca Python para computação numérica.
-* **Matplotlib:** Biblioteca Python para visualização de dados.
-* **Seaborn:** Biblioteca Python para visualização de dados estatísticos (opcional, mas recomendada para gráficos mais informativos).
-* **Outras bibliotecas relevantes:** (Adicione aqui qualquer outra biblioteca Python que você utilizou, como SciPy para testes estatísticos, se aplicável).
+1. **Leitura e preparação dos dados**  
+   Importação dos datasets e tratamento de dados faltantes e inconsistentes.
+
+2. **Validação das Hipóteses**  
+   Análises estatísticas e comparativas para confirmar ou refutar as hipóteses estabelecidas.
+
+3. **Visualização dos Resultados**  
+   Criação de gráficos para ilustrar diferenças de comportamento e preferência musical.
+
+## ✅ Principais Resultados
+
+- A atividade dos usuários realmente varia conforme o dia da semana e a cidade.
+- Há diferenças significativas nas preferências musicais nas manhãs de segunda e nas noites de sexta-feira.
+- Springfield tende a ouvir mais pop, enquanto Shelbyville apresenta maior afinidade com rap.
+
+## 📚 O que Aprendi
+
+- Manipulação e limpeza de dados com Pandas.
+- Criação de visualizações eficientes para análise comparativa.
+- Validação de hipóteses com dados reais.
+- Comunicação de resultados de forma clara e visual.
+
+---
+
+# 🎧 Music Preferences Analysis: Springfield vs Shelbyville
+
+## 📌 Project Description
+
+This project compares the music listening habits of Springfield and Shelbyville residents using real data from Y.Music. Developed during a Data Analytics Bootcamp, the analysis is based on testing hypotheses about user behavior across different days and times.
+
+## 🎯 Objectives
+
+- Determine whether user activity varies depending on the day of the week and the city.
+- Analyze genre preferences on Monday mornings and Friday nights.
+- Evaluate whether Springfield prefers pop and Shelbyville prefers rap.
+
+## 🛠️ Tools & Technologies
+
+- Python (Pandas, Seaborn, Matplotlib)
+- Jupyter Notebook
+- Data visualization
+- Exploratory data analysis (EDA)
+
+## 🔍 Analysis Workflow
+
+1. **Data Import and Preparation**  
+   Handling missing values and data inconsistencies.
+
+2. **Hypothesis Testing**  
+   Statistical and comparative analysis to validate hypotheses.
+
+3. **Visualization**  
+   Creating graphs to illustrate behavioral and preference differences.
+
+## ✅ Key Findings
+
+- User activity does vary based on the day and the city.
+- Genre preferences differ on Monday mornings and Friday evenings.
+- Pop is more popular in Springfield, while rap has more fans in Shelbyville.
+
+## 📚 Key Learnings
+
+- Data wrangling with Pandas.
+- Effective data visualization for comparative analysis.
+- Hypothesis validation using real-world data.
+- Clear communication of analytical results.
